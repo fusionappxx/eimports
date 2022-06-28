@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,200;1,900&display=swap');
+* {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+body {
+  background-color: #2c3136;
+  color: #145494;
+  font-family: 'Nunito', sans-serif;
+}
+.borda {
+  border: 1px solid #14b0e1;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 50px 5px 50px;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  padding-top: 15px;
+}
+.nomeLoja {
+  font-size: 80px;
+}
+.menu {
+  display: inline-flex;
+  margin-top: 30px;
+}
+.menu li a {
+  background-image: linear-gradient(#14b0e1, #145494);
+  border-radius: 25px 0px 25px 0px;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+  box-sizing: border-box;
+  color: #fff;
+  margin: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.menu li a:hover {
+  box-shadow: 1px 1px 3px #fff;
+}
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header { 
+  margin: 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.itens {
+  /* margin: 5px; */
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.itemHome {
+  margin: 15px;
+}
+.promo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  align-items: flex-start;
+}
+.footer p {
+  font-weight: 900;
+  font-size: 1.5em;
+  color: #fff;
+}
+.comoComprar {
+  margin-right: 100px;
+}
+.comoComprar p {
+  padding-bottom: 40px;
+}
+.comoComprar li {
+  display: inline-flex;
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 6px solid #14b0e1;
+  color: #fff;
+}
+.faleConosco {
+  max-width: 250px;
+  flex-wrap: wrap;
+}
+.faleConosco input,textarea {
+  border-radius: none 1px;
+  padding-left: 5px;
+  margin: 5px;
+  width: 200px;
+}
+button {
+  background-image: linear-gradient(#14b0e1, #145494);
+  border-radius: 2px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 5px;
+  color: #fff;
+  margin: 5px;
+  padding: 10px 20px;
+  text-align: center;
+}
